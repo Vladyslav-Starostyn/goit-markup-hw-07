@@ -27,16 +27,16 @@
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+            fill: var(--accent-color);
+            cursor: pointer;
+        }
+    
+        &:hover,
+        &:focus {
+            fill: var(--accent-color);
+        }
 }
 
-.clients__link:hover,
-.clients__link:focus {
-    border-color: var(--accent-color);
-    fill: var(--accent-color);
-    cursor: pointer;
-}
-
-.clients__icon:hover,
-.clients__icon:focus {
-    fill: var(--accent-color);
-}
