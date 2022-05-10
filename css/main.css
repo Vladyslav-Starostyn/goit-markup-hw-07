@@ -3,6 +3,8 @@
   --color-title: #212121;
   --color-text: #757575;
   --accent-color: #2196F3;
+  --body-font: "Roboto", sans-serif;
+  --second-font: "Raleway";
 }
 
 .visually-hidden {
@@ -45,7 +47,7 @@ img {
 }
 
 body {
-  font-family: "Roboto",sans-serif;
+  font-family: var(--body-font);
   color: var(--color-text);
 }
 
@@ -159,7 +161,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: var(--second-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -870,4 +872,4 @@ body {
   fill: #FFFFFF;
   background-color: var(--accent-color);
   border: 1px solid transparent;
-}
+}/*# sourceMappingURL=main.css.map */
