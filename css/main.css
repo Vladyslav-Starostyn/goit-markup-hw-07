@@ -83,7 +83,7 @@ body {
   display: flex;
 }
 
-.menu-list__list .link.current {
+.menu-list .link.current {
   color: var(--accent-color);
 }
 
